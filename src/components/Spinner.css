@@ -1,0 +1,16 @@
+.spinner{
+    
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 9px solid;
+    border-color: grey;
+    border-right-color: blue;
+    animation: spinner-animation 1s infinite linear;
+}
+
+@keyframes spinner-animation {
+    to{
+        transform: rotate(1turn);
+    }
+}
